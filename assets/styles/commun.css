@@ -1,0 +1,108 @@
+body {
+  font-size: 0.875rem;
+  font-family: "Loto-Regular", sans-serif;
+  line-height: 1.063rem;
+  color: #5D5D5D;
+}
+/*
+*
+*/
+.cpn-container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media(max-width: 768px) {
+  .cpn-container {
+    max-width: 736px;
+  }
+}
+
+/*
+------------------------------------
+| FONTS
+------------------------------------
+*/
+@font-face {
+	font-family: Loto-Bold;
+	src: local("Loto-Bold"), url('./../styles/fonts/Lato/Lato-Bold.ttf');
+}
+
+@font-face {
+	font-family: Loto-Regular;
+	src: local("Loto-Regular"), url('./../styles/fonts/Lato/Lato-Regular.ttf');
+}
+
+
+/*
+------------------------------------
+| TITLE
+------------------------------------
+*/
+h1 {
+  font-size: 3.04rem;
+  line-height: 3.313rem;
+  font-family: "Loto-Bold", sans-serif;
+  color: #222222;
+  margin-bottom: 3px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  line-height: 1.313rem;
+  color: #222222;
+  margin-bottom: 12px;
+}
+
+
+/*
+------------------------------------
+| ICONS
+------------------------------------
+*/
+/*
+* icon-menu-hamburger
+*/
+.icon-menu-hamburger {
+  display: inline-block;
+  min-width: 32px;
+  min-height: 23px;
+  background-color: #E8E8E8;
+  -webkit-mask-image: url('./../images/svg/icon-menu-hamburger.svg');
+  -webkit-mask-size: 32px 23px;
+  -webkit-mask-repeat: no-repeat ;
+  -webkit-mask-position: center;
+}
+
+/*
+* icon-user
+*/
+.icon-user {
+  display: inline-block;
+  min-width: 29px;
+  min-height: 29px;
+  background-color: #E8E8E8;
+  -webkit-mask-image: url('./../images/svg/icon-user.svg');
+  -webkit-mask-size: 29px 29px;
+  -webkit-mask-repeat: no-repeat ;
+  -webkit-mask-position: center;
+}
+
+/*
+* icon-card
+*/
+.icon-card {
+  display: inline-block;
+  min-width: 32px;
+  min-height: 29px;
+  background-color: #E8E8E8;
+  -webkit-mask-image: url('./../images/svg/icon-card.svg');
+  -webkit-mask-size: 32px 29px;
+  -webkit-mask-repeat: no-repeat ;
+  -webkit-mask-position: center;
+}
+
+[class*="icon-"]:hover {
+  background-color: #F16D7F;
+}
